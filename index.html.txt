@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shravani D G - Proffessional Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 24px auto;
+      background-color: #fff;
+      padding: 32px 24px;
+      border-radius: 8px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.09);
+    }
+    header {
+      display: flex;
+      gap: 26px;
+      align-items: center;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      color: #005fa3;
+      font-size: 2.4rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 36px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      font-weight: 600;
+      color: #004d99;
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-bottom: 3px;
+      text-decoration: none;
+      border-bottom: 2.5px solid transparent;
+      transition: border .2s, color .2s;
+    }
+    nav a.active, nav a:hover {
+      border-bottom: 2.5px solid #0077cc;
+      color: #0077cc;
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    section h2 {
+      color: #004080;
+      border-left: 5px solid #0077cc;
+      padding-left: 12px;
+      font-size: 1.45rem;
+      margin-bottom: 16px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 22px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      border: 1px solid #d0d0d0;
+      padding: 9px 11px;
+      text-align: left;
+    }
+    th {
+      background-color: #0077cc;
+      color: white;
+    }
+    .btn-download, .btn-view {
+      display: inline-block;
+      padding: 6px 19px;
+      font-size: 1em;
+      border-radius: 23px;
+      text-decoration: none;
+      transition: background .2s;
+    }
+    .btn-download {
+      background-color: #0077cc;
+      color: #fff;
+      margin-top: 8px;
+    }
+    .btn-download:hover { background-color: #005fa3; }
+    .btn-view {
+      background-color: #28a745;
+      color: white;
+      margin-left: 10px;
+      font-size: 0.97em;
+    }
+    .btn-view:hover { background-color: #1e7e34; }
+    .contact-info span { display: inline-block; margin-right: 17px; }
+    @media (max-width: 650px) {
+      .container { padding: 12px 3px; }
+      section h2 { font-size: 1.07rem; }
+      nav { gap: 18px; }
+      header { flex-direction: column; gap: 8px;}
+    }
+    footer {
+     width: 100%;
+     text-align: center;
+     position: relative;
+     margin-top: 50px;
+     padding: 18px 0 10px 0;
+     color: #777;
+     font-size: 1rem;
+     background: transparent;
+     }
+     footer hr {
+     border: none;
+     border-top: 1.5px solid #cccccc;
+     margin-bottom: 16px;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     }
+  </style>
+</head>
+<body>
+<div class="container" id="home">
+  <header>
+    
+    <img src="https://avatars.githubusercontent.com/u/122735124?v=4" alt="Santosh Nayak" width="105" style="border-radius:50%;border:2px solid #0077cc;" />
+    <h1>Shravani D G</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#internships">Internships</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      A dedicated and results-driven Computer Science Engineering student with hands-on experience in Android development, Artificial Intelligence, and machine learning projects. Skilled in building smart, user-centric applications, including an AI-based assistant for visually impaired individuals with features like object detection, speech processing, and navigation assistance. Strong foundation in Java, Python, C, HTML, CSS, and modern AI tools.
+    </p>
+   <li>
+        Shravani Resume
+        <a href="certificates/Shravani Resume.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Percentage/CGPA</th>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Adarsha Vidyalaya RMSA ,Challakere</td>
+        <td>2019</td>
+        <td>83.6%</td>
+      </tr>
+      <tr>
+        <td>PUC</td>
+        <td>Jawahar Navodaya Vidyalaya, Chitradurga(CBSE)</td>
+        <td>2021</td>
+        <td>77.7%</td>
+      </tr>
+      <tr>
+        <td>B.E. (CSE)</td>
+        <td>AGM College of Engineering & Technology, Hubballi</td>
+        <td>2025</td>
+        <td>8.6 CGPA</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="internships">
+    <h2>Internship Experience</h2>
+    <ul>
+      <p><li>Cyber Security Internship at GIT TECH SOLUTIONS: Gain Control over a Victim Machine Using njRAT Trojan and prevention.
+      <a href="certificates/Git Internship Certificate.pdf" target="_blank" class="btn-view">View</a>
+      </li></p>
+      <p><li>AI Data Quality Analyst Internship at ROOMAN TECHNOLOGIES: Worked on Improving Data Accuracy in CRM Using AI.
+      <a href="certificates/Rooman Internship Certificate.pdf" target="_blank" class="btn-view">View</a>
+      </li></p>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <p><li><strong>Anti Sleep Alarm for drivers:</strong> Detection of drivers drowsiness through eye blink sensor using Arduino Nano</li></p>
+      <p><li><strong>Criminal Database Management System:</strong> Built a management system using PyCharm and MySQL for law enforcement.</li></p>
+      <p><li><strong>Android Development:</strong> Built Android Application using Java and XML.</li></p>
+      <p><li><strong>AI Assistance for visually Impaired App:</strong> Built a Android Application using Flutter. 
+        <a href="https://github.com/Nayak251/simple-blockchain-simulation" target="_blank" style="color:#0077cc;font-size:0.97em;">GitHub Repo</a>
+      </li></p>
+      <p><li><strong>Profile-Card:</strong> A Simple Profile-Card using HTML and CSS .
+        <a href="https://github.com/Nayak251/profile-card" target="_blank" style="color:#0077cc;font-size:0.97em;">GitHub Repo</a>
+      </li></p>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Technical skills:</p>
+    <p><strong>Programming Languages:Java, Python, C, SQL</p>
+    <p><strong>Web Technologies:HTML, CSS, JavaScript (Basics)</p>
+    <p><strong>Mobile App Development:Android Development, Android Studio, XML Layouts, Firebase (Basics)</p>
+    <p><strong>Artificial Intelligence & Machine Learning:Machine Learning Algorithms, Deep Learning Basics, CNN, NLP, OpenCV, Image Processing</p>
+    <p><strong>Frameworks & Tools:TensorFlow, Keras, Dialogflow, Git, GitHub</p>
+    <p><strong>AI & Vision Technologies:Object Detection, Image-to-Text, Speech-to-Text, Text-to-Speech, Edge AI Concepts</p>
+    <p><strong>Databases:MySQL, SQLite (Android)</p>
+    <p><strong>Developer Tools & Platforms:VS Code, PyCharm, Jupyter Notebook, Google Colab, Android Studio, Google Maps API</p>
+    <p><strong>Operating Systems:Windows, Linux (Basics)</p>
+    <p><strong>Personal:</strong> Leadership, Communication, Problem Solving, Risk Taking</p>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Courses</h2>
+    <ul>
+      <li>
+        INTERNSHIP CERTIFICATE on Cyber Security-GIT Tech Solutions
+        <a href="certificates/Internship GIT.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+      <li>
+        INTERNSHIP CERTIFICATE on AI Data Quality Analyst-Rooman Technologies
+        <a href="certificates/AI Data Quality.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+      <li>
+         Project competition by CMR Institute of Technology-Best Project(Place:first)
+        <a href="certificates/CMR IT.pdf " target="_blank" class="btn-view">View</a>
+      </li>
+      <li>
+         Explore fundamentals of Azure Cosmos DB- Microsoft
+        <a href="certificates/Microsoft Fundamentals of Azure.pdf " target="_blank" class="btn-view">View</a>
+      </li>
+      <li>
+        Plan and prepare to develop AI solutions on Azure- Microsoft
+        <a href="certificates/AI Solutions.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+      <li>
+        Design Power BI reports- Microsoft
+        <a href="certificates/Data Accuracy in CRM.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+       <li>
+        Data Accuracy in CMR-IBM
+        <a href="certificates/Design Power BI.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+      
+       <li>
+        IEE Paper presentation
+        <a href="certificates/IEE Paper presentation.pdf" target="_blank" class="btn-view">View</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Personal</h2>
+    <p><strong>Email:</strong> <a href="mailto:shravanidevarakonda2@gmail.com">shravanidevarakonda2@gmail.com</a></p>
+    <p><strong>Phone: </strong>+91 8296177055</p>
+    <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/shravani-dg-9855aa227" target="_blank">www.linkedin.com/in/shravani-dg-9855aa227</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/shra2115" target="_blank">https://github.com/shra2115</a></p>
+    <p><strong>Languages: </strong>Kannada, English, Hindi,Telugu</p>
+    <p><strong>Hobbies:</strong> Reading Books,Novels</p>
+    <p><strong>Date of Birth:</strong> 15 August 2003</p>
+    <p><strong>Address:</strong> Challakere, Chitradurga(Dist),karanataka,577522</p>
+  </section>
+
+  <footer>
+    <hr>
+    <p>&copy; 2025 Shravani D G</p>
+  </footer>
+</div>
+
+<script>
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if(href[0] === "#") {
+        e.preventDefault();
+        document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+        this.classList.add('active');
+        document.querySelector(href).scrollIntoView({behavior: 'smooth'});
+      }
+    });
+  });
+</script>
+</body>
+
+</html>
