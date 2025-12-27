@@ -154,8 +154,10 @@
       A dedicated and results-driven Computer Science Engineering student with hands-on experience in Android development, Artificial Intelligence, and machine learning projects. Skilled in building smart, user-centric applications, including an AI-based assistant for visually impaired individuals with features like object detection, speech processing, and navigation assistance. Strong foundation in Java, Python, C, HTML, CSS, and modern AI tools.
     </p>
    <li>
-        Shravani Resume
-        <a href="certificates/Shravani Resume.pdf(1).pdf" target="_blank" class="btn-view">View</a>
+     Shravani Resume
+     <button onclick="previewAndDownload('certificates/Shravani Resume.pdf(1).pdf')" class="btn-download">
+     👁️ View & Download
+     </button>
       </li>
   </section>
 
@@ -289,7 +291,18 @@
 </div>
 
 <script>
-  // Smooth scrolling for navigation links
+  function previewAndDownload(pdfUrl) {
+  const previewWindow = window.open(pdfUrl, '_blank');
+  setTimeout(() => {
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = pdfUrl; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, 800);  
+  }
+  
   document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(e) {
       const href = this.getAttribute('href');
@@ -305,6 +318,7 @@
 </body>
 
 </html>
+
 
 
 
